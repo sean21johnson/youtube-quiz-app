@@ -1,3 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .scoring {
     display: flex;
+}
+
+.score {
+    margin-bottom: 25px;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+.retry {
+    margin-top: 20px;
 }

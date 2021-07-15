@@ -12,7 +12,7 @@
     <!-- Quiz App 
         create an array of question objects
             each question should have the below properties:
-                question, questionNumber, answer
+                question, array of answers, questionNumber, answer
         
     
     -->
@@ -24,11 +24,11 @@
     </header>
 
     <main>
-        <section>
+        <section class="score">
             <h2>Total Score</h2>
             <div class="scoring" id="scoring">
                 <div class="correct" id="correct">
-                    0
+                    0 
                 </div>
                 <div>
                     /
@@ -38,6 +38,19 @@
                 </div>
             </div>
         </section>
+
+        <section id="questions" class="questions">
+            <div>
+                Question # <span class="question-number" id="question-number">1</span>
+            </div>
+            <div class="question" id="question">
+            </div>
+            <form class="form" id="form">
+               
+            </form>
+        </section>
+
+        
 
 
     </main>
